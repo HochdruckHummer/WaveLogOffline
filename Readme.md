@@ -3,13 +3,13 @@
 
 <a href=""><img src="https://www.webappjung.de/images/assets/google2.png" style="height:40px;border-radius:0!important;"  alt=""/></a>&nbsp;<a href="https://apps.apple.com/de/app/cloudlogoffline/id1528219213"><img src="https://www.webappjung.de/images/assets/iOS2.png"  style="height:40px;border-radius:0!important;" alt=""/></a>
 
-CloudLogOffline is an app interface for [Cloudlog](https://github.com/magicbug/Cloudlog) the cloud logbook for HAM radio OMs and YLs by 2M0SQL.
+WaveLogOffline is an app interface for [Wavelog](https://github.com/wavelog/wavelog) the cloud logbook for HAM radio OMs and YLs.
 
-The main purpose of CloudLogOffline is the portable operating mode, where no Wifi or 3G/LTE is available, e.g. SOTA, IOTA or COTA. The logs can be stored in the app and when back to a internet connection, the log can be uploaded to a selfhosted Cloudlog instance. This app is developed as cross-platform tool for macOS, iOS, iPadOS, Android, Windows, Linux using the Qt framework.
+The main purpose of WaveLogOffline is the portable operating mode, where no Wifi or 3G/LTE is available, e.g. SOTA, IOTA or COTA. The logs can be stored in the app and when back to a internet connection, the log can be uploaded to a selfhosted Cloudlog instance. This app is developed as cross-platform tool for macOS, iOS, iPadOS, Android, Windows, Linux using the Qt framework.
 
-Currently CloudLogOffline supports following features:
+Currently WaveLogOffline supports following features:
 
-- Upload to Cloudlog via API 
+- Upload to Wavelog via API 
 - Query QRZ.com (if 3G/LTE is available)
 - Connect to [Flrig](https://www.w1hkj.com) by W1HKJ which e.g. runs on a Raspberry Pi which is connected to the radio and opens a Wifi to interact with CloudLogOffline
 - Set a CQ QRG if Flrig is not available
@@ -32,9 +32,9 @@ After installing Qt just follow these steps on command line:
 
 ```bash
 git clone --recursive https://github.com/hochdruckhummer/WaveLogOffline.git
-cd cloudLogOffline/
+cd waveLogOffline/
 mkdir build && cd build
-qmake ../CloudLogOffline.pro
+qmake ../WaveLogOffline.pro
 make -j4   # adjust to number of CPU cores
 ```
 Or use QtCreator to build the project.
