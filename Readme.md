@@ -1,6 +1,5 @@
-# CloudLogOffline
+# WaveLogOffline
 
-[![CloudLogOfflineDemo](https://img.youtube.com/vi/jgX52e1QWU0/0.jpg)](https://youtu.be/jgX52e1QWU0 "CloudLogOffline Demo")
 
 <a href=""><img src="https://www.webappjung.de/images/assets/google2.png" style="height:40px;border-radius:0!important;"  alt=""/></a>&nbsp;<a href="https://apps.apple.com/de/app/cloudlogoffline/id1528219213"><img src="https://www.webappjung.de/images/assets/iOS2.png"  style="height:40px;border-radius:0!important;" alt=""/></a>
 
@@ -32,7 +31,7 @@ sudo apt install qmake6 qt6-base-dev qt6-base-private-dev qt6-base-dev-tools qt6
 After installing Qt just follow these steps on command line:
 
 ```bash
-git clone --recursive https://github.com/myzinsky/cloudLogOffline.git
+git clone --recursive https://github.com/hochdruckhummer/WaveLogOffline.git
 cd cloudLogOffline/
 mkdir build && cd build
 qmake ../CloudLogOffline.pro
@@ -42,7 +41,3 @@ Or use QtCreator to build the project.
 
 Then run the binary, app or exe
 
-## Community:
-- German Telegram Group: https://t.me/CloudLogOffline
-- International DARC Matrix Group: [#thema_cloudlogoffline:darc.de](https://matrix.to/#/#thema_cloudlogoffline:darc.de)
-- News: <a rel="me" href="https://social.darc.de/@DL9MJ">Mastodon DL9MJ</a>
